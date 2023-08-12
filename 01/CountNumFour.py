@@ -16,5 +16,5 @@ for i in range(0, TotalElements):
         NumberFour += 1
 # Print the list
 print("The list:",list)
-# Print 
+
 print("The number of appearances of number 4 in the list:",NumberFour)
