@@ -5,7 +5,6 @@ list = []
 TotalElements = int(input("Enter number of elements : ")) 
 
 NumberFour = 0
-
 for i in range(0, TotalElements):
     # Get the element from the user
     element = int(input())
