@@ -10,10 +10,5 @@ for i in range(0, TotalElements):
     element = int(input())
     # Adding the element
     list.append(element)
-    # Check if the number is 4
-    if element == 4:
-        NumberFour += 1
-# Print the list
-print("The list:",list)
 
-print("The number of appearances of number 4 in the list:",NumberFour)
+print(f'Number of apperances of #4 : {list.count(4)}')
