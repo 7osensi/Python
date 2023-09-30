@@ -1,13 +1,19 @@
+#           Author: Hussein Mohamed 
+#           Description: Pyhton script to open the last email 
+
 import pyautogui
 import webbrowser
 import time
 
 webbrowser.open("https://mail.google.com/mail/u/0/#inbox") 
 
-pyautogui.locateOnScreen('calc7key.png')
+time.sleep(8) # Give time for the page to load
+      
+pyautogui.moveTo(492, 298) 
+time.sleep(2)
+pyautogui.click()  
 
-print(pyautogui.displayMousePosition())
-
-# pyautogui.moveTo(70, 215)  # Firefox coordinates
-
-# pyautogui.click()          # Click the mouse
+# To find the coordinates of the point you want 
+# while True:
+#   x, y =  pyautogui.position()
+#   print(f"Mouse position : X = {x} and Y = {y}") 
